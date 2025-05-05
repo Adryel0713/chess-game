@@ -1,6 +1,8 @@
 package br.nullPointerX.chess;
 
-public class ChessException extends RuntimeException {
+import br.nullPointerX.boardGame.BoardException;
+
+public class ChessException extends BoardException {
     public ChessException(String message) {
         super(message);
     }
